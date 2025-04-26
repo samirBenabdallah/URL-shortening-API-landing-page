@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Nav from "./com/Nav";
 import Header from "./com/Header";
+import GetStartedSection from "./com/GetStartedSection";
+import Footer from "./com/Footer";
 
 function App() {
   const [showNav, setNavVisibility] = useState(false);
@@ -14,6 +16,8 @@ function App() {
     >
       <Nav navState={showNav} setNavState={setNavVisibility} />
       <Header />
+      <GetStartedSection />
+      <Footer />
     </div>
   );
 }
