@@ -14,7 +14,7 @@ function Footer() {
       <img
         src={logoWhite}
         alt="logo"
-        className="bg-white h-10 max-[790px]:w-max max-[790px]:mx-auto"
+        className="h-10 max-[790px]:w-max max-[790px]:mx-auto"
       />
       <div className="ml-auto max-[790px]:mx-auto max-[790px]:mt-10 flex max-[790px]:flex-col">
         <List
